@@ -36,7 +36,7 @@ Run.
 
 Begin by running with `npm start`
 
-[`Link to Tutorial`]()
+[`Link to Tutorial`](https://drive.google.com/file/d/1_-YUpq867GixV1UcVJW7NBi8Vl6EIqlR/view)
 
 ## License
 
