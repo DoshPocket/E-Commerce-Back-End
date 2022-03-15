@@ -34,8 +34,8 @@ router.get('/:id', (req, res) => {
     })
 });
 
-router.post('/', (req, res) => {
   // create a new tag
+router.post('/', (req, res) => {
   Tag.create({
     tag_name: req.body.tag_name
   })
@@ -46,8 +46,8 @@ router.post('/', (req, res) => {
   });
 });
 
-router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
+router.put('/:id', (req, res) => {
   Tag.update(
     { tag_name: req.body.tag_name },
     {
@@ -67,8 +67,8 @@ router.put('/:id', (req, res) => {
   });
 });
 
-router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
+router.delete('/:id', (req, res) => {
   Tag.destroy(
     {
       where: {
